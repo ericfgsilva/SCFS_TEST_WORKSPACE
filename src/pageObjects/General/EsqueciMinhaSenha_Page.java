@@ -1,18 +1,18 @@
-package pageObjects.AutoCadastro;
+package pageObjects.General;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import pageObjects.General.BaseClass;
 import util.Log;
+
 import java.util.List;
 
-public class AutoCadastro_Page extends BaseClass{
+public class EsqueciMinhaSenha_Page extends BaseClass{
 
 	private static WebElement element;
 	private static List<WebElement> lineElement;
 
-	public AutoCadastro_Page(WebDriver driver){
+	public EsqueciMinhaSenha_Page(WebDriver driver){
 		super(driver);
 	}
 
