@@ -1,0 +1,9 @@
+<suite name="TestSuit">
+
+    <test name="Create Status">
+        <classes>
+            <class name="testCases.TestSuit.TestExample"/>
+        </classes>
+    </test>
+
+</suite>
